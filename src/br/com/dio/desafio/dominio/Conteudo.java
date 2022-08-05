@@ -4,17 +4,17 @@ public abstract class Conteudo {
 
     protected static final double XP_PADRAO = 10d;
 
-    private String tituo;
+    private String titulo;
     private String descricao;
 
     public abstract double calcularXp();
 
-    public String getTituo() {
-        return tituo;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setTituo(String tituo) {
-        this.tituo = tituo;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public String getDescricao() {
